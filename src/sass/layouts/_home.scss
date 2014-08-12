@@ -1,4 +1,10 @@
+/*  HOME START PAGE
+====================================================
+==================================================== */
 #section_home {
+	background-image: url(../imgs/bg/home.jpg);
+	// padding: 30% 0 0 0;
+
 	h1 {
 		margin-bottom: 40px;
 		width: 70%;
@@ -13,13 +19,17 @@
 	}
 
 	h1, h2, .arrow_down { margin: 0 auto; }
-
-	.arrow_down {
-		margin-top: 20px;
-		width: 49px;
-		height: 26px;
-		cursor: pointer;
-		@include triangle(down, 26px, $orange);
-	}
 }
 
+.arrow_down {
+	position: relative;
+	top: 40px;
+	width: 49px;
+	height: 26px;
+	cursor: pointer;
+	@include triangle(down, 26px, $orange);
+
+	&:active {
+		@include triangle(down, 26px, darken($orange, 10%));		
+	}
+}

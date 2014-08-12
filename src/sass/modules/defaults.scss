@@ -1,6 +1,4 @@
-/*  START OF LEONGABAN STYLES
-
-DEFAULTS
+/* START OF LEONGABAN STYLES | DEFAULTS
 ====================================================
 ==================================================== */
 html  {
@@ -13,9 +11,18 @@ body {
 	height: 100%;
 	font-family: 
 		"bitterregular", Helvetica, Arial, sans-serif;
-	color: #fff;
+	font-size: em(16);
+	color: #ddd;
 	background: #f2f2f2;
 	overflow: hidden;
+
+	a {
+		color: $orange;
+		text-decoration: none;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
 }
 
 h1 {
@@ -41,13 +48,13 @@ input:not([type=submit]):not([type=file]) {
 	border: 2px solid #e8e8e8;
 }
 
-strong 			{ font-family: LatoBold; }
+strong { font-family: bitterbold; color: #fff; }
 
-.modal_cover	{ position: absolute; width: 100%; height: 100%; background: #333; opacity: 0.8; z-index: 4; }
+.modal_cover { position: absolute; width: 100%; height: 100%; background: #333; opacity: 0.8; z-index: 4; }
 
 /* Centered texts in each section
 * --------------------------------------- */
-.section{
+.section {
 	text-align:center;
 }
 
@@ -69,26 +76,25 @@ strong 			{ font-family: LatoBold; }
 	background-size: cover;
 }
 
-/* Defining each section background and styles
+/* Project specific defaults
 * --------------------------------------- */
-#section_home{
-	background-image: url(../imgs/bg/home.jpg);
-	/*padding: 30% 0 0 0;*/
-}
+.project_svg,
+.project_sass  {
+	margin: 0 auto;
+	max-width: 640px;
+	// font-size: em(18);
+	text-align: left;
+	line-height: em(26);
 
-#slide1{
-	background-image: url(../imgs/bg/desk.jpg);
-	/*padding: 30% 0 0 0;*/
-}
+	h1, p {
+		margin-bottom: 20px;
+	}
 
-#slide2{
-	background-image: url(../imgs/bg/svg.jpg);
-	/*padding: 30% 0 0 0;*/
-}
-
-#slide3{
-	background-image: url(../imgs/bg/sass.gif);
-	/*padding: 30% 0 0 0;*/
+	p {
+		float: left;
+		font-size: em(18);
+		clear: both;
+	}
 }
 
 #slide4{

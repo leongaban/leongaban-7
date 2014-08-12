@@ -30,38 +30,83 @@
 		<a href="#home"><div class="leongaban_logo"></div></a>
 		<ul>
 			<li>Leon Gaban:</li>
-			<li><a href="">Github</a></li>
-			<li><a href="">Stack</a></li>
-			<li><a href="">CodePen</a></li>
-			<li><a href="">LinkedIn</a></li>
-			<li><a href="">Email</a></li>
+			<li><a href="https://github.com/leongaban" target="_blank">Github</a></li>
+			<li><a href="http://stackoverflow.com/users/168738/leon-gaban" target="_blank">Stack</a></li>
+			<li><a href="http://codepen.io/leongaban/" target="_blank">CodePen</a></li>
+			<li><a href="https://www.linkedin.com/in/leongaban" target="_blank">LinkedIn</a></li>
+			<li><a href="mailto:leongaban@gmail.com" target="_blank">Email</a></li>
 		</ul>
 	</nav>
 </div>
 
 <div id="fullpage">
-	<div class="section " id="section_home">
-		<div class="intro">
+	<div id="section_home" class="section">
+		<section class="intro">
 			<h1>Hi, I’m Leon Gaban<br/> Front-end Developer</h1>
 			<h2>In lieu of a traditional portfolio, let me show you my last project.</h2>
-			<a href="#about"><div class="arrow_down"></div></a>
-		</div>
+			<a href="#project"><div class="arrow_down"></div></a>
+		</section>
 	</div>
 
-	<div class="section" id="section1">
+	<div id="section_project" class="section">
 	    <div class="slide" id="slide1">
-			<div class="intro">
-				<h1>Who@ Website &amp; Web App</h1>
-				<p>The past year I was brought on to the Who@ team to rebuild their original website and web app in a responsive design. Worked closely with the designer and back-end dev on the front-end of a LAMP (Python) stack.</p>
-			</div>
+			<section class="intro project_block">
+				<h1>The Who@ Website &amp; Web App</h1>
+
+				<div class="project_thumbs">
+					<ul>
+						<li><div class="thumb_home"></div></li>
+						<li><div class="thumb_dash"></div></li>
+						<li><div class="thumb_details"></div></li>
+						<li><div class="thumb_contacts"></div></li>
+					</ul>
+				</div>
+
+				<p>I was brought on to the <a href="http://whoat.net" title="WhoAt.net" target="_blank">Who@</a> team to rebuild their original website and web app in a responsive design. Worked closely with devops, designer and back-end devs on the front-end of a LAMP (Python) stack.</p>
+
+				<div class="project_technologies">
+					<ul>
+						<li>Technologies used:</li>
+						<li><strong>HTML5</strong></li>
+						<li><strong>CSS3</strong>(SASS)</li>
+						<li><strong>jQuery</strong> (module pattern)</li>
+						<li><strong>Python</strong></li>
+						<li><strong>REST</strong> apis</li>
+						<li><strong>AJAX</strong></li>
+						<li><strong>Mako</strong> templates</li>
+					</ul>
+				</div>
+
+				<div class="project_arrow">
+					<span class="about_me">About Me</span>
+					<a href="#about"><div class="arrow_down"></div></a>
+				</div>
+			</section>
 		</div>
 
-	    <div class="slide" id="slide2">
-			<h1>Reducing server requests with SVGs</h1>
+	    <div id="slide2" class="slide">
+	    	<section class="project_svg">
+				<h1>Reducing server requests with SVGs</h1>
+
+				<p><div class="thumb_svg"></div> The first challenge in rebuilding their website &amp; web app was addressing all the performance issues. There where close to a hundred different icons and illustrations used.</p>
+
+				<p>I reduced the number of server requests down to just 2 SVG files, 1 for <a href="" target="_blank">icons</a> and 1 for large <a href="">illustrations</a>.</p>
+
+				<p>Being in vector format, the new images also looked great on mobile devices or scaled in.</p>
+			</section>
 		</div>
 
 		<div class="slide" id="slide3">
-			<h1>Organizing styling with SASS</h1>
+			<section class="project_sass">
+				<h1>Organizing styling with SASS</h1>
+				<p>SASS is amazing, I followed the <a href="" target="_blank">SMACSS</a> philopshy and excellent organizing and maintaining CSS. SASS also makes rapid prototyping easier.</p>
+
+				<p>Styling of the app is now easier to manage, with scss files for each view, and for example resets, <a href="" target="_blank">defaults</a>, <a href="" target="_blank">mixins</a>, <a href="" target="_blank">animations</a> and <a href="" target="_blank">queries</a> nicely organized.</p>
+
+				<p>All scss files made CSS modular, and in the end all compiled down into a compressed CSS file for production.</p>
+
+				<p>You can view all examples posted on <a href="" target="_blank">Github</a>.</p>
+			</section>
 		</div>
 
 		<div class="slide" id="slide4">

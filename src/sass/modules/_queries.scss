@@ -18,9 +18,7 @@
 			font-size: em(64);
 		}
 
-		h2 {
-			top: 0;
-		}
+		h2 { top: 0; }
 	}
 }
 
@@ -34,9 +32,7 @@
 ==================================================== */
 @media all and (max-width: 960px) {
 	#section_home {
-		h1 {
-			font-size: em(48);
-		}
+		h1 { font-size: em(48); }
 
 		h2 {
 			top: 0;
@@ -44,6 +40,8 @@
 			line-height: em(24);
 		}
 	}
+
+	.arrow_down { top: 20px; }
 }
 
 /* 800
