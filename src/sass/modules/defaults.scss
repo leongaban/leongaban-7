@@ -50,6 +50,10 @@ input:not([type=submit]):not([type=file]) {
 
 strong { font-family: bitterbold; color: #fff; }
 
+.float_left {
+	float: left;
+}
+
 .overlay {
 	display: none;
 	position: fixed;
