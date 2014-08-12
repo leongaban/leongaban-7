@@ -9,6 +9,15 @@
 	<meta name="keywords"  content="leon gaban, gaban, portfolio, front-end, developer, development, web development, javascript" />
 	<meta name="Resource-type" content="Document" />
 
+	<!-- for Facebook -->
+	<meta property="og:image" content="images/leon_gaban.png"/>
+	<meta property="og:title" content="Leon Gaban - Designer &amp; Front-End Developer"/>
+	<meta property="og:site_name" content="Leon Gaban's Portfolio"/>
+	<meta property="og:type" content="portfolio"/>
+
+    <link rel="shortcut icon" href="http://leongaban.com/favicon.ico">
+    <link rel="apple-touch-icon" href="http://leongaban.com/apple-touch-icon.png">
+
 	<link rel="stylesheet" type="text/css" href="src/css/leongaban.css" />
 
 	<!--[if IE]>
@@ -22,8 +31,42 @@
     <!-- css3-mediaqueries.js IE8 -->
     <!--[if lt IE 9]><script src="src/js/vendors/css3-mediaqueries-min.js"></script><![endif]-->
 
+	<!-- Google analytics -->
+    <script type="text/javascript">
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-27583223-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+
 </head>
 <body>
+
+<div class="modal close_modal">
+	<div class="modal_image screenshot_home">
+		<img src="src/imgs/modals/home.jpg" alt="Who@ Homepage"/>
+	</div>
+
+	<div class="modal_image screenshot_dash">
+		<img src="src/imgs/modals/dash.gif" alt="Who@ Dashboard"/>
+	</div>
+
+	<div class="modal_image screenshot_details">
+		<img src="src/imgs/modals/details.gif" alt="Who@ Inbox Details"/>
+	</div>
+
+	<div class="modal_image screenshot_contacts">
+		<img src="src/imgs/modals/contacts.gif" alt="Who@ My Contacts"/>
+	</div>
+
+	<div class="modal_image screenshot_svg">
+		<img src="src/imgs/modals/svg_board.gif" alt="SVG Board"/>
+	</div>
+</div>
+<div class="overlay close_modal"></div>
 
 <div id="header">
 	<nav>
@@ -144,6 +187,7 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 <script type="text/javascript" src="src/js/vendors/jquery.slimscroll.min.js"></script>
 <script type="text/javascript" src="src/js/libs/jquery.fullPage.js"></script>
+<script type="text/javascript" src="src/js/leongaban-all-min.js"></script>
 
 <script type="text/javascript">
 	$(document).ready(function() {
@@ -156,5 +200,6 @@
 		});
 	});
 </script>
+
 </body>
 </html>
