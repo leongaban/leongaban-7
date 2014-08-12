@@ -60,12 +60,8 @@ strong { font-family: bitterbold; color: #fff; }
 
 /* Overwriting styles for control arrows for slides
 * --------------------------------------- */
-.controlArrow.prev {
-	left: 50px;
-}
-.controlArrow.next{
-	right: 50px;
-}
+.controlArrow.prev { left: 50px; }
+.controlArrow.next { right: 50px; }
 
 /* Backgrounds will cover all the section
 * --------------------------------------- */
@@ -80,7 +76,9 @@ strong { font-family: bitterbold; color: #fff; }
 /* Project specific defaults
 * --------------------------------------- */
 .project_svg,
-.project_sass  {
+.project_sass,
+.project_js,
+.about_section {
 	margin: 0 auto;
 	max-width: 640px;
 	// font-size: em(18);

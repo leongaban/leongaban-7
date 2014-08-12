@@ -90,7 +90,7 @@
 
 				<p><div class="thumb_svg"></div> The first challenge in rebuilding their website &amp; web app was addressing all the performance issues. There where close to a hundred different icons and illustrations used.</p>
 
-				<p>I reduced the number of server requests down to just 2 SVG files, 1 for <a href="" target="_blank">icons</a> and 1 for large <a href="">illustrations</a>.</p>
+				<p>I reduced the number of server requests down to just 2 SVG files, 1 for <a href="https://github.com/leongaban/code-examples/blob/master/sass/_icons.scss" target="_blank">icons</a> and 1 for large <a href="https://github.com/leongaban/code-examples/blob/master/sass/_illustrations.scss">illustrations</a>.</p>
 
 				<p>Being in vector format, the new images also looked great on mobile devices or scaled in.</p>
 			</section>
@@ -99,25 +99,43 @@
 		<div class="slide" id="slide3">
 			<section class="project_sass">
 				<h1>Organizing styling with SASS</h1>
-				<p>SASS is amazing, I followed the <a href="" target="_blank">SMACSS</a> philopshy which is excellent for organizing and maintaining CSS.</p>
+				<p>SASS is amazing, I followed the <a href="https://smacss.com/" target="_blank">SMACSS</a> philopshy which is excellent for organizing and maintaining CSS.</p>
 
-				<p>Styling of the app is now easier to manage, with scss files for each view, and for example resets, <a href="" target="_blank">defaults</a>, <a href="" target="_blank">mixins</a>, <a href="" target="_blank">animations</a> and <a href="" target="_blank">queries</a> nicely organized.</p>
+				<p>Styling of the app is now easier to manage, with scss files for each view, and for example resets, <a href="https://github.com/leongaban/code-examples/blob/master/sass/dashboard.scss" target="_blank">masters</a>, <a href="https://github.com/leongaban/code-examples/blob/master/sass/_defaults.scss" target="_blank">defaults</a>, <a href="https://github.com/leongaban/code-examples/blob/master/sass/_mixins.scss" target="_blank">mixins</a>, <a href="https://github.com/leongaban/code-examples/blob/master/sass/_animation.scss" target="_blank">animations</a> and <a href="https://github.com/leongaban/code-examples/blob/master/sass/_queries.scss" target="_blank">queries</a> nicely organized.</p>
 
 				<p>All scss files made CSS modular, and in the end all compiled down into a compressed CSS file for production.</p>
 
-				<p>You can view all examples posted on <a href="" target="_blank">Github</a>.</p>
+				<p>You can view all examples posted on <a href="https://github.com/leongaban/code-examples" target="_blank">Github</a>.</p>
 			</section>
 		</div>
 
 		<div class="slide" id="slide4">
-			<h1>Refactoring the Javascript</h1>
+			<section class="project_js">
+				<h1>Refactoring Javascript and Python</h1>
+
+				<p>For the Javascript I used the <strong>jQuery module pattern</strong> to organize the front-end code. Each module has a specific purpose, either related to a view or a function, like the <a href="https://github.com/leongaban/code-examples/blob/master/jquery/who-dash.js" target="_blank">dashboard</a>, <a href="https://github.com/leongaban/code-examples/blob/master/jquery/networkingModule.js" target="_blank">networking</a>, <a href="https://github.com/leongaban/code-examples/blob/master/jquery/messagingModule.js" target="_blank">messaging</a>, <a href="https://github.com/leongaban/code-examples/blob/master/jquery/profileModule.js" target="_blank">profile</a> etc...</p>
+
+				<p>Our back-end was written in <strong>Python</strong> so I had to learn enough to create new Python views. Examples: <a href="https://github.com/leongaban/code-examples/blob/master/python%20(pyramid)/__init__.py" target="_blank">Dashboard</a>, <a href="https://github.com/leongaban/code-examples/blob/master/python%20(pyramid)/profile.py" target="_blank">Profile</a>, <a href="https://github.com/leongaban/code-examples/blob/master/python%20(pyramid)/ftue.py" target="_blank">FTUE</a>(First time user experience). I would either make a Python or API calls to get requests back for templates or JSON data.</p>
+
+				<p>Templates where setup using <strong>Mako</strong> (which uses Python code to render content from dictionaries or objects). Examples: <a href="https://github.com/leongaban/code-examples/blob/master/mako%20templates/master.mak" target="_blank">Master</a>, <a href="https://github.com/leongaban/code-examples/blob/master/mako%20templates/dashboard.mak" target="_blank">Dashboard</a>, <a href="https://github.com/leongaban/code-examples/blob/master/mako%20templates/functions.mak" target="_blank">contacts functions</a></p>
+			</section>
 		</div>
 	</div>
 
 	<div class="section" id="section_about">
-		<div class="intro">
+		<section class="intro about_section">
 			<h1>About Me </h1>
-		</div>
+
+			<p>I have a passion for crafting user experiences, if the web was built with legos I’d probably be using those some how.</p>
+
+			<p>While designing or coding I prefering listening to ambient music or a podcast, I follow the people over at <a href="http://css-tricks.com/" target="_blank">css-tricks</a> and read on <a href="http://www.smashingmagazine.com/" target="_blank">smashing magazine</a> to stay updated in the industry. My favorite code editor is <a href="https://www.sublimetext.com/" target="_blank">Sublime Text 2</a>.</p>
+
+			<p>For pleasure I  listen to several podcasts including Let’s talk Bitcoin, Hardcore History or the Joe Rogan podcast, for hobbies I love practicing Jujitsu and Bikram yoga.</p>
+
+			<p>You can follow me on <a href="http://twitter.com/leongaban" title="follow me" target="_blank">Twitter here</a>.</p>
+
+			<p><em>If you where looking for my older portfolio, you can <a href="http://leongaban.com/v6">find it here (Version 6)</a>.</em></p>
+		</section>
 	</div>
 </div>
 
