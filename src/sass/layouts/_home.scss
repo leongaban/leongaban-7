@@ -1,0 +1,25 @@
+#section_home {
+	h1 {
+		margin-bottom: 40px;
+		width: 70%;
+		font-size: em(80);
+		@include text-shadow(2px, 2px, #000);
+	}
+
+	h2 {
+		position: relative;
+		top: 20px;
+		font-size: em(24);
+	}
+
+	h1, h2, .arrow_down { margin: 0 auto; }
+
+	.arrow_down {
+		margin-top: 20px;
+		width: 49px;
+		height: 26px;
+		cursor: pointer;
+		@include triangle(down, 26px, $orange);
+	}
+}
+

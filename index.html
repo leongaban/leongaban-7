@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Leon Gaban : Front-end Developer</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="author" content="Leon Gaban" />
+	<meta name="description" content="Leon Gaban's portfolio" />
+	<meta name="keywords"  content="leon gaban, gaban, portfolio, front-end, developer, development, web development, javascript" />
+	<meta name="Resource-type" content="Document" />
+
+	<link rel="stylesheet" type="text/css" href="src/css/leongaban.css" />
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+
+	<!-- html5.js IE8 -->
+    <!--[if lt IE 9]><script src="src/js/vendors/html5-min.js"></script><![endif]-->
+    <!-- css3-mediaqueries.js IE8 -->
+    <!--[if lt IE 9]><script src="src/js/vendors/css3-mediaqueries-min.js"></script><![endif]-->
+
+</head>
+<body>
+
+<div id="header">
+	<nav>
+		<a href="#home"><div class="leongaban_logo"></div></a>
+		<ul>
+			<li>Leon Gaban:</li>
+			<li><a href="">Github</a></li>
+			<li><a href="">Stack</a></li>
+			<li><a href="">CodePen</a></li>
+			<li><a href="">LinkedIn</a></li>
+			<li><a href="">Email</a></li>
+		</ul>
+	</nav>
+</div>
+
+<div id="fullpage">
+	<div class="section " id="section_home">
+		<div class="intro">
+			<h1>Hi, I’m Leon Gaban<br/> Front-end Developer</h1>
+			<h2>In lieu of a traditional portfolio, let me show you my last project.</h2>
+			<a href="#about"><div class="arrow_down"></div></a>
+		</div>
+	</div>
+
+	<div class="section" id="section1">
+	    <div class="slide" id="slide1">
+			<div class="intro">
+				<h1>Who@ Website &amp; Web App</h1>
+				<p>The past year I was brought on to the Who@ team to rebuild their original website and web app in a responsive design. Worked closely with the designer and back-end dev on the front-end of a LAMP (Python) stack.</p>
+			</div>
+		</div>
+
+	    <div class="slide" id="slide2">
+			<h1>Reducing server requests with SVGs</h1>
+		</div>
+
+		<div class="slide" id="slide3">
+			<h1>Organizing styling with SASS</h1>
+		</div>
+
+		<div class="slide" id="slide4">
+			<h1>Refactoring the Javascript</h1>
+		</div>
+	</div>
+
+	<div class="section" id="section_about">
+		<div class="intro">
+			<h1>About Me </h1>
+		</div>
+	</div>
+</div>
+
+<!-- Scripts -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+<script type="text/javascript" src="src/js/vendors/jquery.slimscroll.min.js"></script>
+<script type="text/javascript" src="src/js/libs/jquery.fullPage.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('#fullpage').fullpage({
+			anchors: ['home', 'project', 'about'],
+			sectionsColor: ['#4c2015', '#4c2015', '#4c2015', '#4c2015'],
+			navigation: true,
+			navigationPosition: 'right',
+			navigationTooltips: ['Home', 'Project Development', 'About Me']
+		});
+	});
+</script>
+</body>
+</html>

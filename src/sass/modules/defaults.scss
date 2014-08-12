@@ -1,0 +1,97 @@
+/*  START OF LEONGABAN STYLES
+
+DEFAULTS
+====================================================
+==================================================== */
+html  {
+	// height: 100%;
+	// overflow: hidden;
+}
+
+body {
+	min-width: 640px;
+	height: 100%;
+	font-family: 
+		"bitterregular", Helvetica, Arial, sans-serif;
+	color: #fff;
+	background: #f2f2f2;
+	overflow: hidden;
+}
+
+h1 {
+	font-size: em(32);
+	font-family: "bitterbold", Helvetica, Arial, sans-serif;
+	color: #fff;
+	margin:0;
+}
+
+html,
+button,
+input,
+select,
+textarea { color: #333; }
+
+// Only text inputs
+input:not([type=submit]):not([type=file]) {
+	padding: 0 20px;
+	height: 38px;
+    font-size: 1em;
+	color: #000;
+    line-height: 35px;
+	border: 2px solid #e8e8e8;
+}
+
+strong 			{ font-family: LatoBold; }
+
+.modal_cover	{ position: absolute; width: 100%; height: 100%; background: #333; opacity: 0.8; z-index: 4; }
+
+/* Centered texts in each section
+* --------------------------------------- */
+.section{
+	text-align:center;
+}
+
+/* Overwriting styles for control arrows for slides
+* --------------------------------------- */
+.controlArrow.prev {
+	left: 50px;
+}
+.controlArrow.next{
+	right: 50px;
+}
+
+/* Backgrounds will cover all the section
+* --------------------------------------- */
+#section_home,
+#slide1,
+#slide2,
+#slide3 {
+	background-size: cover;
+}
+
+/* Defining each section background and styles
+* --------------------------------------- */
+#section_home{
+	background-image: url(../imgs/bg/home.jpg);
+	/*padding: 30% 0 0 0;*/
+}
+
+#slide1{
+	background-image: url(../imgs/bg/desk.jpg);
+	/*padding: 30% 0 0 0;*/
+}
+
+#slide2{
+	background-image: url(../imgs/bg/svg.jpg);
+	/*padding: 30% 0 0 0;*/
+}
+
+#slide3{
+	background-image: url(../imgs/bg/sass.gif);
+	/*padding: 30% 0 0 0;*/
+}
+
+#slide4{
+	background-image: url(../imgs/bg/js.jpg);
+	padding: 6% 0 0 0;
+}

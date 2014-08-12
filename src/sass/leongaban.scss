@@ -1,0 +1,51 @@
+/*=================================================================
+LEONGABAN.com v7 Master Stylesheet --------------------------------
+===================================================================
+
+stylesheets/
+|
+|-- modules/            # Common modules
+|   |-- _base           # Imports all the modules
+|   |-- _animation      # CSS animations
+|   |-- _colors         # Colors
+|   |-- _fonts          # Fonts
+|   |-- _mixins         # Imports all mixins & global vars
+|   ...
+|
+|-- modules/           # Partials
+|   |-- _normalize      # http://necolas.github.io/normalize.css
+|   |-- _defaults       # Global Defaults
+|   |-- _layout         # Imports all layouts
+|   |-- _modals         # All the modals
+|	...
+|   |
+|   |-- layout/         # Layout Views
+|   	|-- home
+|   	|-- desk
+|   	|-- svg
+|   	|-- sass
+|   	|-- javascript
+|   	|-- about
+|   	...
+|
+|   |-- _svg      	   # not built yet, needed for ie8
+|   |-- _firefox
+|   |-- _queries
+|
+|-- vendor/            # CSS or from other projects
+|   ...
+|
+`-- leongaban          # Primary Sass file
+`-- reset              # Super reset then adjusted with normalize
+*/
+
+
+// Modules and Variables
+@import "modules/reset";
+// @import "vendors/normalize";
+@import "modules/base";
+@import "vendors/jqueryFullPage";
+@import "modules/defaults";
+@import "modules/layout";
+@import "modules/png";
+@import "modules/queries";
