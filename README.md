@@ -10,7 +10,7 @@ Leongaban.com version 7 http://leongaban.com
 
 version 6: http://leongaban.com/v6
 
-fullPage.js: http://alvarotrigo.com/fullPage
+Used jQuery and fullPage.js: http://alvarotrigo.com/fullPage
 
 http://leongaban.com | [@leongaban](http://twitter.com/leongaban "Follow me on Twitter")
 
