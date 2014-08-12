@@ -72,7 +72,8 @@ strong { font-family: bitterbold; color: #fff; }
 #section_home,
 #slide1,
 #slide2,
-#slide3 {
+#slide3,
+#slide4 {
 	background-size: cover;
 }
 
@@ -95,9 +96,4 @@ strong { font-family: bitterbold; color: #fff; }
 		font-size: em(18);
 		clear: both;
 	}
-}
-
-#slide4{
-	background-image: url(../imgs/bg/js.jpg);
-	padding: 6% 0 0 0;
 }
